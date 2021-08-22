@@ -21,7 +21,7 @@ dependencies {
 
 
 
-tasks{
+tasks {
     processResources {
         filesMatching("*.yml") {
             expand(project.properties)
@@ -32,6 +32,7 @@ tasks{
         from(sourceSets["main"].output)
         archiveBaseName.set(project.name)
         archiveVersion.set("") // For bukkit plugin update
+        archiveFileName.set("${project.name}.jar")
 
         doLast {
             copy {

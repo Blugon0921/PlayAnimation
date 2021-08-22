@@ -1,4 +1,6 @@
-#Kotlin Plugin Example
+MeterPerSecond Bukkit Plugin
+
+
 
 > PaperMC 1.17
 > 
