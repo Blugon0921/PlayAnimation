@@ -1,0 +1,6 @@
+name: $project.name
+version: $project.version
+main: io.github.blugon.kotlinpluginexample.KotlinPluginExample
+api-version: 1.17
+description: KotlinPluginExample
+author: Blugon
