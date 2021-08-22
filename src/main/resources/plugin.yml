@@ -1,6 +1,6 @@
 name: $project.name
 version: $project.version
-main: io.github.blugon.kotlinpluginexample.KotlinPluginExample
+main: io.github.blugon.meterpersecond.MeterPerSecond
 api-version: 1.17
-description: KotlinPluginExample
+description: MeterPerSecond
 author: Blugon

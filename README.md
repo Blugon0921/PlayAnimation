@@ -1,4 +1,4 @@
-Kotlin Plugin Example
+MeterPerSecond Bukkit Plugin
 
 
 
