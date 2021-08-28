@@ -1,6 +1,10 @@
 name: $project.name
 version: $project.version
-main: io.github.blugon.kotlinpluginexample.KotlinPluginExample
+main: io.github.blugon0921.playanimation.PlayAnimation
 api-version: 1.17
-description: KotlinPluginExample
+description: PlayAnimation
 author: Blugon
+
+commands:
+  animation:
+    description: Play/Stop Animation

@@ -1,1 +1,1 @@
-rootProject.name = "KotlinPluginExample"
+rootProject.name = "PlayAnimation"
