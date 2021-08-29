@@ -32,13 +32,5 @@ tasks {
         archiveBaseName.set(project.name)
         archiveVersion.set("") // For bukkit plugin update
         archiveFileName.set("${project.name}.jar")
-
-        doLast {
-            copy {
-                from(archiveFile)
-                val plugins = File("C:/Users/blugo/바탕화면/Files/Minecraft/Servers/Default/plugins")
-                into(plugins)
-            }
-        }
     }
 }
