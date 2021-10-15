@@ -14,6 +14,7 @@ class PlayAnimation : JavaPlugin(),Listener {
     override fun onEnable() {
         logger.info("Plugin Enable")
         Bukkit.getPluginManager().registerEvents(this, this)
+
         getCommand("animation")!!.apply {
             setExecutor(Kommand())
             tabCompleter = Kommand()

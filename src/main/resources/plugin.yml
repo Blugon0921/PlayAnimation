@@ -1,8 +1,8 @@
-name: $project.name
-version: $project.version
-main: io.github.blugon0921.playanimation.PlayAnimation
+name: ${project.name}
+version: ${project.version}
+main: ${project.group}.playanimation.PlayAnimation
 api-version: 1.17
-description: PlayAnimation
+description: ${project.name}
 author: Blugon
 
 commands:

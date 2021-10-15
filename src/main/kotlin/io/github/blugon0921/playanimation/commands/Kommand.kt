@@ -52,7 +52,7 @@ class Kommand : CommandExecutor, TabCompleter {
                             for (y in 0 until frame_img.height) {
                                 for (x in 0 until frame_img.width) {
                                     val kolor = java.awt.Color(frame_img.getRGB(x, y))
-                                    val color = Particle.DustOptions(Color.fromRGB(kolor.red, kolor.green, kolor.blue), 1.3f)
+                                    val color = Particle.DustOptions(Color.fromRGB(kolor.red, kolor.green, kolor.blue), 1.5f)
                                     world.spawnParticle(Particle.REDSTONE, location, 1, 0.0, 0.0, 0.0, 0.0, color, true)
                                     location.add(0.1, 0.0, 0.0)
                                 }
