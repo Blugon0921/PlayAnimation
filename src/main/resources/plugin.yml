@@ -1,0 +1,14 @@
+name: ${project.name}
+version: ${project.version}
+main: ${project.group}.${project.name.toLowerCase()}.${project.name}
+api-version: "1.20"
+description: ${project.name}
+author: Blugon
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.9.0
+  - org.jetbrains.kotlin:kotlin-reflect:1.9.0
+
+
+commands:
+  animation:
+    description: Play/Stop Animation
